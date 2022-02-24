@@ -82,6 +82,7 @@ export default function RestaurantsCard() {
                   {callout.name}
                 </Link>
               </h3>
+              
               <p className="text-base font-semibold text-gray-900">{callout.description}</p>
             </div>
           ))}
