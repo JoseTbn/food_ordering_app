@@ -46,6 +46,36 @@ export default function MealsDay() {
       imageSrc: 'https://images.unsplash.com/photo-1484325881845-65073528922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80',
       imageAlt: 'spaghetti arabiatta.',
     },
+    {
+      id: 4,
+      name: 'spaghetti',
+      href: '#',
+      price: '$18',
+      type: 'italian',
+      desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
+      imageSrc: 'https://images.unsplash.com/photo-1484325881845-65073528922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80',
+      imageAlt: 'spaghetti arabiatta.',
+    },
+    {
+      id: 4,
+      name: 'spaghetti',
+      href: '#',
+      price: '$18',
+      type: 'italian',
+      desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
+      imageSrc: 'https://images.unsplash.com/photo-1484325881845-65073528922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80',
+      imageAlt: 'spaghetti arabiatta.',
+    },
+    {
+      id: 4,
+      name: 'spaghetti',
+      href: '#',
+      price: '$18',
+      type: 'italian',
+      desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
+      imageSrc: 'https://images.unsplash.com/photo-1484325881845-65073528922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80',
+      imageAlt: 'spaghetti arabiatta.',
+    },
     // More products...
   ]
 
@@ -79,7 +109,7 @@ export default function MealsDay() {
                 </div>
                 <div class="flex items-center justify-between p-4">
                   <Link key={product.id} to={product.href} className="group" >
-                    <button class="px-4 py-2 rounded-full bg-green-600 text-green-50">Order Now</button>
+                    <button class="px-4 py-2 rounded-full bg-green-600 text-green-50 hover:scale-110 hover:ease-in-out  hover:duration-300">Order Now</button>
                   </Link>
                   <span class="text-xl text-green-600">{product.price}</span>
                 </div>
