@@ -9,7 +9,7 @@ export default function MealsDay() {
     {
       id: 1,
       name: 'Three Pepper Pizza',
-      href: '#',
+      href: '/Cartpage',
       price: '$18',
       type: 'fast-food',
       desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
@@ -29,7 +29,7 @@ export default function MealsDay() {
     {
       id: 3,
       name: 'Chiccken pepper tacos',
-      href: '#',
+      href: '/Cartpage',
       price: '$29',
       type: 'indian',
       desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
@@ -39,7 +39,7 @@ export default function MealsDay() {
     {
       id: 4,
       name: 'spaghetti',
-      href: '#',
+      href: '/Cartpage',
       price: '$18',
       type: 'italian',
       desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
@@ -49,7 +49,7 @@ export default function MealsDay() {
     {
       id: 4,
       name: 'spaghetti',
-      href: '#',
+      href: '/Cartpage',
       price: '$18',
       type: 'italian',
       desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
@@ -59,7 +59,7 @@ export default function MealsDay() {
     {
       id: 4,
       name: 'spaghetti',
-      href: '#',
+      href: '/Cartpage',
       price: '$18',
       type: 'italian',
       desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
@@ -69,7 +69,7 @@ export default function MealsDay() {
     {
       id: 4,
       name: 'spaghetti',
-      href: '#',
+      href: '/Cartpage',
       price: '$18',
       type: 'italian',
       desc: 'Lorem ipsum dolor, sit amet cons ectetur adipis icingelit.',
@@ -84,7 +84,7 @@ export default function MealsDay() {
 
     <>
 
-      <section class="mt-8 pb-20 bg-white">
+      <section class=" bg-green-50">
        
         <div class="container w-full px-5 py-6 mx-auto">
         <div class="py-4 ml-4 text-left">

@@ -1,42 +1,41 @@
 import React from 'react'
 import {Link} from "react-router-dom";
-
-  
-
-      import { Fragment, useState } from 'react'
+import { Fragment, useState } from 'react'
  
-  export default function Hero () {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      export default function Hero () {
+  
+  
+  
+  
     const [open, setOpen] = useState(false)
-
-
-
-
+   
+   
+   
     const offers = [
         { name: 'Download the app', description: 'Get an exclusive $5 off code', href: '#' },
         { name: "Return when you're ready", description: '60 days of free returns', href: '#' },
         { name: 'Sign up for our newsletter', description: '15% off your first order', href: '#' },
       ]
 
-
-
-      function classNames(...classes) {
+  function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
       }
 
 
+    return(
 
 
-    return (
-     
-     
-     
-     
+
      <div className="bg-white">
-        
-        
-        
-        
-        
         <div className="flex flex-col border-b border-gray-200 lg:border-0">
           <nav aria-label="Offers" className="order-last lg:order-first">
             <div className="max-w-7xl mx-auto lg:px-8">

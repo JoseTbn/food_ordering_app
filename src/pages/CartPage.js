@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from '../components/Navbar/Navbar'
 
-export default function CartPage() {
+ function CartPage() {
  
  
     const [rotate, setRotate] = useState(false);
@@ -150,3 +150,5 @@ export default function CartPage() {
     );
 };
 
+
+export default CartPage
