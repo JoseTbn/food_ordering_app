@@ -18,18 +18,14 @@ function App() {
 
     <Routes>
         <Route path="/" element={<Home />} >
-        <Route path="MealsDay" element={<MealsDay />} />
-
-
+          <Route path="MealsDay" element={<MealsDay />} />
         </Route>
+
         <Route path="Restaurants" element={<Restaurants />} >
-        <Route path="RestaurantsID" element={<Restaurants />} />
-
-
+          <Route path="RestaurantsID" element={<Restaurants />} />
         </Route>
+        
         <Route path="Cartpage" element={<CartPage />}>
-
-
         </Route>
         <Route path="/MealsDay" element={<MealsDay />} />
       </Routes>
