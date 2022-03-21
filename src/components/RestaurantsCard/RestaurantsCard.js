@@ -35,8 +35,8 @@ export default function RestaurantsCard() {
         },
         {
           name: 'Restaurant 4',
-          description: 'Pizza',
-          imageSrc: 'https://images.unsplash.com/photo-1600628422066-f6bda6a7b976?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+          description: 'Chinese',
+          imageSrc: 'https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
           imageAlt: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
           href: '#',
           id:resId++
