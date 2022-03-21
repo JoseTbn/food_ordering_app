@@ -2,10 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter } from "react-router-dom";
-import { ProductsProvider } from './context/products_context'
-import { FilterProvider } from './context/filter_context'
-import { CartProvider } from './context/cart_context'
-import { UserProvider } from './context/user_context'
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,7 +11,9 @@ ReactDOM.render(
 
     
 <BrowserRouter>
-    <App />
+
+            <App />
+        
   </BrowserRouter>,
   
   </React.StrictMode>,

@@ -6,8 +6,11 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './pages/Home';
 import Restaurants from './pages/Restaurants';
 import CartPage from './pages/CartPage';
+import ConnexionPage from './pages/ConnexionPage';
+import Clients from './pages/Clients';
 import MealsDay from './components/Feature/MealsDay';
 import { Children } from 'react';
+import Workers from './pages/Workers';
 
 function App() {
   return (
@@ -22,13 +25,18 @@ function App() {
         </Route>
 
         <Route path="Restaurants" element={<Restaurants />} >
-          <Route path="RestaurantsID" element={<Restaurants />} />
+          <Route path="Restaurants/:id" element={<Restaurants />} />
         </Route>
         
         <Route path="Cartpage" element={<CartPage />}>
         </Route>
         <Route path="/MealsDay" element={<MealsDay />} />
+        <Route path='/Login' element={<ConnexionPage/>} />
+        <Route path='/Workers' element={<Workers/>} />
+        <Route path='/Clients' element={<Clients/> } />
+
       </Routes>
+      
  </>
   );
 }
