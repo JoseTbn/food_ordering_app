@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react'
 import {Link} from "react-router-dom";
 import { Fragment, useState } from 'react'
