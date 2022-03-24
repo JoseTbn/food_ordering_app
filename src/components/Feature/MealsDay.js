@@ -28,7 +28,7 @@ export default function MealsDay() {
     },
     {
       id: 3,
-      name: 'Chiccken pepper tacos',
+      name: 'Chicken pepper tacos',
       href: '/Cartpage',
       price: '$29',
       type: 'indian',
@@ -69,7 +69,7 @@ export default function MealsDay() {
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  classNameName="w-full rounded-t-lg h-48 object-center object-cover group-hover:opacity-75"
+                  className="w-full rounded-t-lg h-48 object-center object-cover group-hover:opacity-75"
                 />
                 <div className="px-6 py-4">
                   <div className="flex mb-2">
@@ -79,7 +79,7 @@ export default function MealsDay() {
                   <p className="leading-normal text-gray-700"> {product.desc} </p>
                 </div>
                 <div className="flex items-center justify-between p-4">
-                  <Link key={product.id} to={product.href} classNameName="group" >
+                  <Link key={product.id} to={product.href} className="group" >
                     <button className="px-4 py-2 rounded-full bg-green-600 text-green-50 hover:scale-110 hover:ease-in-out  hover:duration-300">Order Now</button>
                   </Link>
                   <span className="text-xl text-green-600">{product.price}</span>

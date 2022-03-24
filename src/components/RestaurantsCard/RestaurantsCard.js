@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-sparse-arrays */
 import React from 'react'
 import {Link,Outlet } from "react-router-dom";
 import { useParams } from "react-router-dom";
@@ -8,6 +10,7 @@ export default function RestaurantsCard() {
     let params = useParams();
     let resId = 0
  
+    
     const callouts = [
         {
           name: 'Restaurant 1',
@@ -27,7 +30,7 @@ export default function RestaurantsCard() {
         },
         {
           name: 'Restaurant 3',
-          description: 'Shusi',
+          description: 'Sushi',
           imageSrc: 'https://images.unsplash.com/photo-1545879429-677464262714?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
           imageAlt: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
           href: '#',
