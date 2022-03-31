@@ -66,57 +66,72 @@ function Formulaire() {
      
     
     
-      
+{/*       
         <label >
           Nombre de repas:
         </label><br/>
         <input className='font-medium
          text-base leading-4
           text-gray-600' 
-          type="number" 
+          type="text" 
           value={count} 
           required 
           onChange={(e) => {handleNbRepasChange(e)}} />
-          <br/>
+          <br/> */}
           
-        <label>
-          Rue:
+        <label className=" font-medium text-base leading-4 text-gray-600" >
+          Rue
         </label><br/>
         <input 
+        className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
         type="text" 
         value={rue} 
         required 
         onChange={(e) => {handleRueChange(e)}} />
         <br/>
-         
-        <label>
-          Numero de Maison:
+        <hr className=" bg-gray-200 w-full my-2" />
+        <label className=" font-medium text-base leading-4 text-gray-600" >
+          Numero de Maison
         </label><br/>
-        <input type="number" 
+        <input 
+         className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+        type="text" 
         value={numMaison} 
         required 
         onChange={(e) => {handleNumMaisonChange(e)}} />
          <br/>
-             
-        <label>
-          Numero de boite:
+         <hr className=" bg-gray-200 w-full my-2" />
+        <label className=" font-medium text-base leading-4 text-gray-600" >
+          Numero de boite
         </label><br/>
-        <input type="number"
+        <input
+         className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+        type="text"
          value={numBoite}
          required onChange={(e)  => {handleNumBoiteChange(e)}} />
         <br/>
 
-
-        <label>
-            code Postal:
+        <hr className=" bg-gray-200 w-full my-2" />
+        <label className=" font-medium text-base leading-4 text-gray-600" >
+            code Postal
         </label> <br/>
-        <input type="number" value={codePostal} required onChange={(e) => {handleCodePostalChange(e)}} /> <br/>
-
-        <label>
-          Commune:
+        <input 
+         className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+        type="text" 
+        value={codePostal} 
+        required 
+        onChange={(e) => {handleCodePostalChange(e)}} /> <br/>
+ <hr className=" bg-gray-200 w-full my-2" />
+        <label className=" font-medium text-base leading-4 text-gray-600" >
+          Commune
         </label><br/>
-        <input type="text" value={commune} required onChange={(e)  => {handleCommuneChange(e)}} /><br/>
-               
+        <input 
+         className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+        type="text" 
+        value={commune} 
+        required 
+        onChange={(e)  => {handleCommuneChange(e)}} /><br/>
+                <hr className=" bg-gray-200 w-full my-2" />
         {/* <button type="submit" style={{background:"blue", color:"white"}}>submit</button> */}
 
         <div className="lg:mt-11 mt-10">

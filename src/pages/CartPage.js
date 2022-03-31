@@ -108,9 +108,9 @@ import Formulaire from '../components/Formulaire/Formulaire'
                     </div>
 
                     <p className=" font-normal text-base leading-6 text-gray-600 mt-7">Your mindels burger with best fries.</p>
-                    <p className=" font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 mt-6 ">$ 15</p>
+                    <p className=" font-semibold lg:text-2xl text-xl py-5 lg:leading-6 leading-5 mt-6 ">$ 15</p>
                   <Formulaire />
-                  <div className="lg:mt-11 mt-10">
+                  {/* <div className="lg:mt-11 mt-10">
                         <div className="flex flex-row justify-between">
                             <p className=" font-medium text-base leading-4 text-gray-600">Select quantity</p>
                             <div className="flex">
@@ -133,7 +133,7 @@ import Formulaire from '../components/Formulaire/Formulaire'
                         <hr className=" bg-gray-200 w-full mt-4" />
                     </div>
 
-                    <button className="focus:outline-none focus:ring-2 hover:bg-black focus:ring-offset-2 focus:ring-gray-800 font-medium text-base leading-4 text-white bg-gray-800 w-full py-5 lg:mt-12 mt-6">Valider la commande</button>
+                    <button className="focus:outline-none focus:ring-2 hover:bg-black focus:ring-offset-2 focus:ring-gray-800 font-medium text-base leading-4 text-white bg-gray-800 w-full py-5 lg:mt-12 mt-6">Valider la commande</button> */}
                 </div>
                 {/* <!-- Preview Images Div For larger Screen--> */}
 
